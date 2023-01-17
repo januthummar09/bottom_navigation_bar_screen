@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const BottomNavigationPage(),
-      // home: const Cd(),
     );
   }
 }

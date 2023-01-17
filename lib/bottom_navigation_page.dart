@@ -1,6 +1,6 @@
-import 'package:bottom_navigation_bar_screen/ab.dart';
-import 'package:bottom_navigation_bar_screen/cd.dart';
-import 'package:bottom_navigation_bar_screen/ef.dart';
+import 'package:bottom_navigation_bar_screen/first_screen.dart';
+import 'package:bottom_navigation_bar_screen/second_screen.dart';
+import 'package:bottom_navigation_bar_screen/thired_screen.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavigationPage extends StatefulWidget {
@@ -26,7 +26,7 @@ class _BottomNavigationPageState extends State<BottomNavigationPage> {
       size: 150,
     ),
   ];
-  List file = [const Ab(), const Cd(), const Ef()];
+  List file = [const FirstScreen(), const SecondScreen(), const ThiredScreen()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

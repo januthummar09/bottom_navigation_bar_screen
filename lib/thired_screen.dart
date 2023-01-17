@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Ef extends StatefulWidget {
-  const Ef({Key? key}) : super(key: key);
+class ThiredScreen extends StatefulWidget {
+  const ThiredScreen({Key? key}) : super(key: key);
 
   @override
-  State<Ef> createState() => _EfState();
+  State<ThiredScreen> createState() => _ThiredScreenState();
 }
 
-class _EfState extends State<Ef> {
+class _ThiredScreenState extends State<ThiredScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

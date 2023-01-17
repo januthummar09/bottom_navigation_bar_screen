@@ -1,6 +1,0 @@
-class Student{
-  void name(){
-
-  }
-  
-}
